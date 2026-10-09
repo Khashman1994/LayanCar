@@ -7,7 +7,7 @@ import {
   ShieldCheck, Banknote, Smartphone, CheckCircle2,
   type LucideIcon
 } from 'lucide-react';
-
+import { Analytics } from "@vercel/analytics/next";
 export default function LayanCartransPage() {
   // --- FORMSPREE ENDPUNKT HIER EINTRAGEN ---
   const FORM_ENDPOINT = "https://formspree.io/f/xgobajjz";
